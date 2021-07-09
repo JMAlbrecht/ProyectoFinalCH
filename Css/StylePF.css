@@ -1,93 +1,42 @@
 
 body{
-
     font-family: 'Staatliches', cursive;
-
 }
-
 header{
-
     background-color: white;
     display: flex;
     justify-content: center;
     border: 5px black;
-   
-
-
 }
-
-
-
-
-
-
 .BARRANAV{
-
     background-color: black;
-    padding: 5px;
     transition: 3s;
     font-size: 1.2rem;
-
-
-
-
-
+    padding:2px;
 }
-
 ul{
-
 list-style: none;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 color: white;
-
-
 }
 
-
-
-.IMAGENESCENTRO {
-
-background-color:white;
-display: flex;
-justify-content: space-around;
-padding: 5px;
-
-background-image: linear-gradient(white,whitesmoke);
-
-
-}
 
 .PIEINDEX {
-
     background-color: black;
-    padding: 5px;
-
     transition: 3s;
     font-size: 1.2rem;
-    
-
-
-
-
-
+    padding: 2px;
 }
-
 a{
-
     color: white;
-
 }
-
 a:hover{
-
     color: black;
     background-color: white;
     padding: 5px;
-
 }
-
 .INICIO{
 
     background-color: black;
@@ -100,21 +49,13 @@ a:hover{
     align-items: center;
     margin: 0 auto;
 }
-
 .INICIO2{
-
     background-color: black;
     padding: 5px;
     transition: 3s;
     font-size: 1.2rem;
-
-
 }
-
-
-
 form {
-
 width: 100%;
 max-width: 600px;
 margin: auto;
@@ -123,51 +64,47 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background-color: whitesmoke;
-
 }
-
-
-
-
-
-
 .CUADRILLAPRODUCTOS {
-
 background-color: whitesmoke;
-
 display: grid;
-
 grid-template-columns:  1fr 1fr 1fr 1fr;
-
 grid-template-rows:1fr;
-
 grid-template-areas: 
-
 "CATEGORIAS" 
 "CATEGORIAS" 
- 
- 
-
-
 ;
 text-align: center;
-
 padding: 5px;
-
-
-
 }
-
 .CATEGORIAS{
-
 grid-area: CATEGORIAS;
-
 }
-
 .CATEGORIAS:hover{
-
     transition: 3s;
     font-size: 2rem;
-
 }
-
+.carousel-item{
+    height: 32rem;
+    background: #777;;
+    color: black;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:50px;
+}
+.btn-primary{
+background-color: black;
+}
+.btn-lg{
+background-color:black;
+}
+.btn{
+background-color: black;
+}
